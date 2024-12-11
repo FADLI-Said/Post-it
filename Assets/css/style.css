@@ -1,0 +1,30 @@
+#formulaire {
+    height: 100vh;
+}
+
+#post-it {
+    height: max-content;
+}
+
+.carte:nth-child(even) {
+    -o-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    position: relative;
+    top: 5px;
+    background: rgba(255, 255, 0, 0.534);
+}
+
+.carte:nth-child(odd){
+    -o-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    position: relative;
+    top: -5px;
+    background: rgba(255, 255, 0, 0.534);
+}
+
+#description {
+    resize: none;
+    height: 50%;
+}
