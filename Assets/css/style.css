@@ -12,7 +12,7 @@
     -moz-transform: rotate(4deg);
     position: relative;
     top: 5px;
-    background: rgba(255, 255, 0, 0.534);
+    background: rgba(255, 255, 0, 0.5);
 }
 
 .carte:nth-child(odd){
@@ -21,10 +21,21 @@
     -moz-transform: rotate(-3deg);
     position: relative;
     top: -5px;
-    background: rgba(255, 255, 0, 0.534);
+    background: rgba(255, 255, 0, 0.5);
 }
 
 #description {
     resize: none;
     height: 50%;
+}
+
+.carte:hover, .carte:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
 }
