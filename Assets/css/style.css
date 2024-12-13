@@ -81,3 +81,19 @@ body {
 #post-it p {
   font-family: "Caveat", cursive;
 }
+
+
+@media (hover: none) and (pointer: coarse) {
+  .carte:hover {
+    /* Désactive l'effet hover */
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    position: static;
+    z-index: auto;
+    cursor: default;
+  }
+}
